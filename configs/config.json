@@ -1,0 +1,30 @@
+{
+  "tokens": {
+    "discord_token": "aaa",
+    "test_discord_token": "aaa",
+    "battlemetrics_token": "aaa",
+    "steam_token": "aaa",
+    "vpn_token": "aaa",
+    "cheetos_api_key": "aaa"
+  },
+  "additional": {
+    "prefix": "!",
+    "DiscordIDForCheetos": 12343,
+    "error_logs_channel": 1234,
+    "test_mode": false
+  },
+  "cogs": {
+    "color": "0x9b59b6"
+  },
+  "logs": {
+    "error_channel": 1234,
+    "link_channel": "https://discord.com/api/webhooks/",
+    "integration": "https://discord.com/api/webhooks/",
+    "users_report_channel": "https://discord.com/api/webhooks/",
+    "report_channel": "https://discord.com/api/webhooks/",
+    "joinleave": "https://discord.com/api/webhooks/",
+    "commanduse_default": "https://discord.com/api/webhooks/",
+    "approve": "https://discord.com/api/webhooks/",
+    "signedtos": "https://discord.com/api/webhooks/"
+  }
+}

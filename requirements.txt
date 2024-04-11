@@ -1,0 +1,11 @@
+aiohttp
+aiosqlite
+discord
+discord.py
+fuzzywuzzy
+pymongo
+requests
+validators
+vdf
+motor
+battlemetrics
