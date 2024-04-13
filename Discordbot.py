@@ -5,6 +5,7 @@ from discord.ext import commands
 # Import cogs
 from cogs.cheetos import Cheetos
 from cogs.public_commands import PublicCommands
+from cogs.private_commands import PrivateCommands
 from cogs.rah import Rah
 from cogs.rahlink import RahLink
 from cogs.vdfchecker import VDFchecker
@@ -25,6 +26,7 @@ class MyBot(commands.Bot):
         if self.config['additional']['test_mode']:
             self._cogs_to_load['Cheetos'] = Cheetos
             self._cogs_to_load['PublicCommands'] = PublicCommands
+            self._cogs_to_load['PrivateCommands'] = PrivateCommands
             self._cogs_to_load['Rah'] = Rah
             self._cogs_to_load['RahLink'] = RahLink
             self._cogs_to_load['VDFCHECKER'] = VDFchecker
@@ -35,6 +37,7 @@ class MyBot(commands.Bot):
         else:
             self._cogs_to_load['Cheetos'] = Cheetos
             self._cogs_to_load['PublicCommands'] = PublicCommands
+            self._cogs_to_load['PrivateCommands'] = PrivateCommands
             self._cogs_to_load['Rah'] = Rah
             self._cogs_to_load['RahLink'] = RahLink
             self._cogs_to_load['VDFCHECKER'] = VDFchecker
